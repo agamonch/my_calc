@@ -17,7 +17,8 @@
         android:gravity="end"
         android:ellipsize="start"
         android:textSize="40sp"
-        android:singleLine="true"/>
+        android:singleLine="true"
+        />
     <TextView
         android:id="@+id/result"
         android:layout_width="match_parent"
@@ -42,12 +43,13 @@
                 android:text="AC"/>
             <TextView
                 style="@style/operate_btn"
-                android:id="@+id/bt_brR"
+                android:id="@+id/bt_brO"
                 android:text="("/>
             <TextView
                 style="@style/operate_btn"
-                android:id="@+id/bt_brL"
-                android:text=")" />
+                android:id="@+id/bt_brC"
+                android:text=")"
+                 />
             <TextView
                 style="@style/operate_btn"
                 android:id="@+id/bt_div"
@@ -61,19 +63,19 @@
             <TextView
                 style="@style/digits_btn"
                 android:id="@+id/bt_7"
-                android:text="7"/>
+                android:text="7" />
             <TextView
                 style="@style/digits_btn"
                 android:id="@+id/bt_8"
-                android:text="8"/>
+                android:text="8" />
             <TextView
                 style="@style/digits_btn"
                 android:id="@+id/bt_9"
-                android:text="9"/>
+                android:text="9" />
             <TextView
                 style="@style/operate_btn"
-                android:id="@+id/bt_multiple"
-                android:text="*"/>
+                android:id="@+id/bt_miltiple"
+                android:text="*" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
@@ -92,10 +94,11 @@
                 style="@style/digits_btn"
                 android:id="@+id/bt_6"
                 android:text="6"/>
+
             <TextView
-                style="@style/operate_btn"
                 android:id="@+id/bt_plus"
-                android:text="+"/>
+                style="@style/operate_btn"
+                android:text="+" />
         </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
